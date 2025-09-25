@@ -17,5 +17,6 @@ protected:
 public:
 // 抽象数据类型方法声明及重载编译系统默认方法声明:
     SqList(int size = DEFAULT_SIZE);
+    virtual ~SqList();
     
 }
